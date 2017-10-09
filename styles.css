@@ -22,6 +22,7 @@ body {
 .skills {
   text-align:center;
   border-radius: 5px;
+  margin:20px 0;
 }
 .links {
   text-align:center;
@@ -55,13 +56,13 @@ body {
   left:10px;
 }
 .skills-container {
-  background:url("images/dev-flat.jpg") no-repeat center;
+  background:url("images/doctorlaptop.jpeg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   z-index: 99999;
 }
 .contact-container {
-  background:url("images/notebook-computer-chill-relax-large.jpg");
+  background:url("images/research.jpeg");
   background-size: cover;
   background-attachment: fixed;
   z-index: 99999;
@@ -84,7 +85,9 @@ p {
   min-height: 100vh;
   width: 100vw;
   box-sizing: border-box;
-	transform-style: inherit;
+  transform-style: inherit;
+  display: flex;
+  justify-content: center;
 }
 .img {
   position: absolute;
@@ -102,10 +105,10 @@ p {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
 .title {
-  width: 50%;
+  width: 80%;
   border-radius: 5px;
   background: rgba(240,230,220, .7);
-  padding:5px;
+  padding:0px 5%;
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 .title li {
@@ -162,11 +165,9 @@ font-weight: bold;
   color:#12D87B;
 }
 .contact-pic {
-  width:15%;
-  position: absolute;
-  top:28%;
-  right:47%;
+  width:300px;
   border-radius: 5px;
+  margin:10px;
   box-shadow: 3px 3px 3px 3px gray;
 }
 #menu {
@@ -190,4 +191,9 @@ font-weight: bold;
 }
 #menu div a:hover {
   color:#12D87B;
+}
+
+.contact {
+  display:flex;
+  justify-content:space-between;
 }
