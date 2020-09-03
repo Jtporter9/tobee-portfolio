@@ -24,7 +24,15 @@ body {
   text-align:center;
   border-radius: 5px;
   margin:20px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.skills img {
+  padding: .5rem;
+}
+
 .links {
   text-align:center;
   border-radius: 5px;
@@ -164,7 +172,7 @@ font-weight: bold;
   color: #fff;
   background-color: #0069d9;
   border-color: #0062cc;
-  padding:7px;
+  padding: 1rem;
   text-decoration: none;
   color:white;
 }
