@@ -154,18 +154,18 @@ font-weight: bold;
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 .back {
-  background-color: rgba(59, 149, 255, 0.63);
-  padding:7px;
-  text-align: right;
-  font-size: 18px;
-  border-bottom:1px solid white;
   position: absolute;
   bottom: 350px;
   right:45%;
-  border-radius: 5px;
-  text-decoration: none;
 }
 .back a{
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  padding:7px;
+  text-decoration: none;
   color:white;
 }
 .back a:hover{
