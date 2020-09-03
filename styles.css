@@ -27,9 +27,11 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.dmu-logo {
   border-radius: 5px;
   background: rgba(0, 0, 0, 0.5);
-  padding: 0 .5rem;
 }
 
 .skills img {
@@ -173,8 +175,7 @@ font-weight: bold;
   border-radius: 5px;
   font-size: 18px;
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #552d80;
   padding: 1rem;
   text-decoration: none;
   color:white;
@@ -190,8 +191,7 @@ font-weight: bold;
   box-shadow: 3px 3px 3px 3px gray;
 }
 #menu {
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #552d80;
   padding: 1rem;
   text-decoration: none;
   color:white;
